@@ -1,9 +1,9 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: swc    # what kind of Carpentry (must be either "lc" or "dc" or "swc").
-                      # Be sure to update the Carpentry type in _config.yml as well.  
+                      # Be sure to update the Carpentry type in _config.yml as well.
 venue: University Of Manchester        # brief name of host site without address (e.g., "Euphoric State University")
-address: 5.211, University Place, Oxford Road, Manchester, UK and 3.62 Simon Building, Oxford Road, Manchester, UK      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: 5.211, University Place, Oxford Road, Manchester, UK on Thursday 9th, and 3.62 Simon Building, Oxford Road, Manchester, UK on Friday 10th     # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: gb      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: en     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: 53.466817, -2.233694       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -182,12 +182,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
-{% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
+{% if site.carpentry == "swc" %}
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
@@ -421,10 +421,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <div class="col-md-4">
       <h4 id="git-macosx">macOS</h4>
       <p>
-        Please open the Terminal app, type <code>git --version</code> and press 
-        <kbd>Enter</kbd>/<kbd>Return</kbd>. If it's not installed already, 
-        follow the instructions to <code>Install</code> the "command line 
-        developer tools". <strong>Don't click</strong> "Get Xcode", because that will 
+        Please open the Terminal app, type <code>git --version</code> and press
+        <kbd>Enter</kbd>/<kbd>Return</kbd>. If it's not installed already,
+        follow the instructions to <code>Install</code> the "command line
+        developer tools". <strong>Don't click</strong> "Get Xcode", because that will
         take too long and is not necessary for our Git lesson.
         After installing these tools, there won't be anything in your <code>/Applications</code>
         folder, as they and Git are command line programs.
@@ -433,7 +433,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
         Because this installer is not signed by the developer, you may have to
         right click (control click) on the .pkg file, click Open, and click
-        Open in the pop-up dialog. You can watch 
+        Open in the pop-up dialog. You can watch
         <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">a video tutorial about this case</a>.
       </p>
     </div>
@@ -458,8 +458,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     color-coding of key words. The default text editor on macOS and
     Linux is usually set to Vim, which is not famous for being
     intuitive. If you accidentally find yourself stuck in it, hit
-    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd> 
-    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to 
+    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd>
+    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to
     return to the shell.
   </p>
 
@@ -623,9 +623,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        Note that if you have separate user and admin accounts, you should run the
+        installers as administrator (right-click on .exe file and select "Run as
+        administrator" instead of double-clicking). Otherwise problems may occur later,
         for example when installing R packages.
       </p>
     </div>
